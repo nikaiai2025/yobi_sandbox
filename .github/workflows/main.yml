@@ -17,7 +17,7 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: npm install
-        working-directory: poc
+        working-directory: .
       - name: Generate post
         run: node generate-post.js
-        working-directory: poc
+        working-directory: .
